@@ -15,7 +15,7 @@
  *    will be REGENERATED on each build.
  *
  */
-package net.mcreator.extra_jopa;
+package extra_jopa;
 
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.fml.relauncher.Side;
@@ -47,7 +47,7 @@ public class ExtraJOPA {
 	public static final String MODID = "extra_jopa";
 	public static final String VERSION = "1.0.0";
 	public static final SimpleNetworkWrapper PACKET_HANDLER = NetworkRegistry.INSTANCE.newSimpleChannel("extra_jopa:a");
-	@SidedProxy(clientSide = "net.mcreator.extra_jopa.ClientProxyExtraJOPA", serverSide = "net.mcreator.extra_jopa.ServerProxyExtraJOPA")
+	@SidedProxy(clientSide = "extra_jopa.ClientProxyExtraJOPA", serverSide = "extra_jopa.ServerProxyExtraJOPA")
 	public static IProxyExtraJOPA proxy;
 	@Mod.Instance(MODID)
 	public static ExtraJOPA instance;

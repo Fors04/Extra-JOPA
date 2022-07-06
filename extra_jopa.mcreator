@@ -10,8 +10,7 @@
     "modid": "extra_jopa",
     "modName": "Extra JOPA",
     "version": "1.0.0",
-    "author": "Fors, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "author": "Fors, MrCobraX",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -19,7 +18,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "1.12.2",
-    "modElementsPackage": "net.mcreator.extra_jopa",
+    "modElementsPackage": "extra_jopa",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202000214217

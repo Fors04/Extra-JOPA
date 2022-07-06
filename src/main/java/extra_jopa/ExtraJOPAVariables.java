@@ -1,4 +1,4 @@
-package net.mcreator.extra_jopa;
+package extra_jopa;
 
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
