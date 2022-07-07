@@ -16,12 +16,21 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "FireSpearTest",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.firespeartest.name": "FireSpearTest",
       "item.gtreg.name": "Gtreg",
       "item.few.name": "Few"
     }

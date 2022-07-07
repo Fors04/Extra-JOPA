@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "spear1",
+        "1": "spear2",
+        "2": "spear3",
+        "3": "spear4",
+        "4": "spear5",
+        "5": "spear6"
+      },
+      "name": "default"
+    }
+  }
+}
