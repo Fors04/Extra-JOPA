@@ -8,16 +8,20 @@ import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 
+import net.minecraft.item.ItemSword;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.Item;
-import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.entity.ai.attributes.AttributeModifier;
+import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import java.util.Set;
 import java.util.HashMap;
 
 import extra_jopa.ElementsExtraJOPA;
+
+import com.google.common.collect.Multimap;
 
 @ElementsExtraJOPA.ModElement.Tag
 public class ItemGtreg extends ElementsExtraJOPA.ModElement {
@@ -29,16 +33,25 @@ public class ItemGtreg extends ElementsExtraJOPA.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("GTREG", 1, 100, 4f, 0f, 2)) {
-			{
-				this.attackSpeed = -3f;
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("GTREG", 1, 100, 4f, -4f, 2)) {
+			@Override
+			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
+				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);
+				if (slot == EntityEquipmentSlot.MAINHAND) {
+					multimap.put(SharedMonsterAttributes.ATTACK_DAMAGE.getName(),
+							new AttributeModifier(ATTACK_DAMAGE_MODIFIER, "Weapon modifier", (double) this.getAttackDamage(), 0));
+					multimap.put(SharedMonsterAttributes.ATTACK_SPEED.getName(),
+							new AttributeModifier(ATTACK_SPEED_MODIFIER, "Weapon modifier", -3, 0));
+				}
+				return multimap;
 			}
+
 			public Set<String> getToolClasses(ItemStack stack) {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
-				ret.put("pickaxe", 1);
+				ret.put("sword", 1);
 				return ret.keySet();
 			}
-		}.setUnlocalizedName("gtreg").setRegistryName("gtreg").setCreativeTab(CreativeTabs.TOOLS));
+		}.setUnlocalizedName("gtreg").setRegistryName("gtreg").setCreativeTab(null));
 	}
 
 	@SideOnly(Side.CLIENT)

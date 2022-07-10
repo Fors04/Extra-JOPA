@@ -2,10 +2,10 @@
   "_fv": 6,
   "_type": "tool",
   "definition": {
-    "renderType": 0,
-    "texture": "fewds",
-    "customModelName": "Normal",
-    "name": "TEST",
+    "renderType": 1,
+    "texture": "14",
+    "customModelName": "siren:default",
+    "name": "§2Siren §k888",
     "creativeTab": {
       "value": "No creative tab entry"
     },
@@ -14,8 +14,8 @@
     "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 2,
-    "damageVsEntity": 0.0,
-    "usageCount": 100,
+    "damageVsEntity": 4.0,
+    "usageCount": 888,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": []

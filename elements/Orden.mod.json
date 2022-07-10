@@ -2,10 +2,10 @@
   "_fv": 6,
   "_type": "tool",
   "definition": {
-    "renderType": 0,
-    "texture": "fewds",
-    "customModelName": "Normal",
-    "name": "TEST",
+    "renderType": 1,
+    "texture": "order",
+    "customModelName": "orden:default",
+    "name": "§bOr§0d§aen §b§k969",
     "creativeTab": {
       "value": "No creative tab entry"
     },
@@ -14,8 +14,8 @@
     "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 2,
-    "damageVsEntity": 0.0,
-    "usageCount": 100,
+    "damageVsEntity": 9.0,
+    "usageCount": 969,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": []

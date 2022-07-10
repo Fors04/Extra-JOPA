@@ -1,5 +1,7 @@
 {
-  "id_map": {},
+  "id_map": {
+    "ENTITY": 1
+  },
   "mod_elements": [
     {
       "name": "Gtreg",
@@ -24,14 +26,43 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Orden",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Hollow",
+      "type": "gun",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      }
+    },
+    {
+      "name": "Siren",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.orden.name": "§bOr§0d§aen §b§k969",
       "item.firespeartest.name": "FireSpearTest",
-      "item.gtreg.name": "Gtreg",
+      "item.gtreg.name": "TEST",
+      "item.siren.name": "§2Siren §k888",
+      "item.hollow.name": "§f§lHollow §k777",
       "item.few.name": "Few"
     }
   },
