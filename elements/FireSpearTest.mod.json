@@ -3,8 +3,8 @@
   "_type": "tool",
   "definition": {
     "renderType": 1,
-    "texture": "14",
-    "customModelName": "spear321:default",
+    "texture": "creenshot_16",
+    "customModelName": "Spear321:default",
     "name": "FireSpearTest",
     "creativeTab": {
       "value": "COMBAT"

@@ -25,16 +25,16 @@ import extra_jopa.ElementsExtraJOPA;
 import com.google.common.collect.Multimap;
 
 @ElementsExtraJOPA.ModElement.Tag
-public class ItemOrden extends ElementsExtraJOPA.ModElement {
-	@GameRegistry.ObjectHolder("extra_jopa:orden")
+public class ItemArpSword extends ElementsExtraJOPA.ModElement {
+	@GameRegistry.ObjectHolder("extra_jopa:arpsword")
 	public static final Item block = null;
-	public ItemOrden(ElementsExtraJOPA instance) {
-		super(instance, 4);
+	public ItemArpSword(ElementsExtraJOPA instance) {
+		super(instance, 7);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("ORDEN", 1, 969, 4f, 5f, 2)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("ARPSWORD", 1, 100, 4f, 0f, 2)) {
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);
@@ -52,12 +52,12 @@ public class ItemOrden extends ElementsExtraJOPA.ModElement {
 				ret.put("sword", 1);
 				return ret.keySet();
 			}
-		}.setUnlocalizedName("orden").setRegistryName("orden").setCreativeTab(CreativeTabs.COMBAT));
+		}.setUnlocalizedName("arpsword").setRegistryName("arpsword").setCreativeTab(CreativeTabs.COMBAT));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("extra_jopa:orden", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("extra_jopa:arpsword", "inventory"));
 	}
 }

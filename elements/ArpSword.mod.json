@@ -3,9 +3,9 @@
   "_type": "tool",
   "definition": {
     "renderType": 1,
-    "texture": "order",
-    "customModelName": "orden:default",
-    "name": "§bOr§0d§aen §b§k969",
+    "texture": "creenshot_15",
+    "customModelName": "my_sword:default",
+    "name": "Arp Sword",
     "creativeTab": {
       "value": "COMBAT"
     },
@@ -14,8 +14,8 @@
     "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 2,
-    "damageVsEntity": 9.0,
-    "usageCount": 969,
+    "damageVsEntity": 4.0,
+    "usageCount": 100,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": []

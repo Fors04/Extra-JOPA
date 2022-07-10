@@ -30,6 +30,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.Entity;
 import net.minecraft.enchantment.EnchantmentHelper;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.client.renderer.entity.Render;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -76,7 +77,7 @@ public class ItemHollow extends ElementsExtraJOPA.ModElement {
 			setUnlocalizedName("hollow");
 			setRegistryName("hollow");
 			maxStackSize = 1;
-			setCreativeTab(null);
+			setCreativeTab(CreativeTabs.COMBAT);
 		}
 
 		@Override

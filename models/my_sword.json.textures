@@ -1,0 +1,21 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "sword1",
+        "11": "Sword12",
+        "1": "sword2",
+        "12": "sword10",
+        "2": "sword3",
+        "3": "sword4",
+        "4": "sword5",
+        "5": "sword6",
+        "6": "sword7",
+        "7": "sword8",
+        "8": "sword9",
+        "10": "sword11"
+      },
+      "name": "default"
+    }
+  }
+}

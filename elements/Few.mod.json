@@ -3,11 +3,11 @@
   "_type": "tool",
   "definition": {
     "renderType": 1,
-    "texture": "14",
+    "texture": "creenshot_17",
     "customModelName": "big_kosa:default",
     "name": "Few",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "COMBAT"
     },
     "toolType": "Sword",
     "harvestLevel": 1,
