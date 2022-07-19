@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "lockbench_kpiqj",
+    "customModelName": "crysis:default",
+    "name": "§bCrysis §k656",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 9.0,
+    "usageCount": 656,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

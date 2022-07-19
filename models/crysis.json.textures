@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "112",
+        "2": "21"
+      },
+      "name": "default"
+    }
+  }
+}

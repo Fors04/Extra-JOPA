@@ -60,6 +60,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Crysis",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -71,6 +79,7 @@
       "item.arpsword.name": "Arp Sword",
       "item.gtreg.name": "TEST",
       "item.siren.name": "§2Siren §k888",
+      "item.crysis.name": "§bCrysis §k656",
       "item.hollow.name": "§f§lHollow §k777",
       "item.few.name": "Few"
     }
