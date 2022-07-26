@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "14",
+    "customModelName": "onix:default",
+    "name": "§2Onix §k999",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 9.0,
+    "usageCount": 999,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

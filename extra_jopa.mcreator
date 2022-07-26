@@ -68,19 +68,64 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Siesta",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Corax",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Apex",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Origin",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Onix",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.orden.name": "§bOr§0d§aen §b§k969",
+      "item.siesta.name": "§2Siesta §k1001",
       "item.firespeartest.name": "FireSpearTest",
+      "item.origin.name": "§eOrigin §k999",
       "item.arpsword.name": "Arp Sword",
-      "item.gtreg.name": "TEST",
-      "item.siren.name": "§2Siren §k888",
       "item.crysis.name": "§bCrysis §k656",
+      "item.siren.name": "§2Siren §k888",
+      "item.onix.name": "§2Onix §k999",
+      "item.orden.name": "§bOr§0d§aen §b§k969",
+      "item.corax.name": "§fCorax §k500",
+      "item.gtreg.name": "TEST",
       "item.hollow.name": "§f§lHollow §k777",
+      "item.apex.name": "§4Apex §k888",
       "item.few.name": "Few"
     }
   },
