@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "fitoria1",
+        "1": "fitoria2",
+        "2": "fitoria3"
+      },
+      "name": "default"
+    }
+  }
+}
