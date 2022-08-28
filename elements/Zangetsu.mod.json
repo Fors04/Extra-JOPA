@@ -3,9 +3,9 @@
   "_type": "tool",
   "definition": {
     "renderType": 1,
-    "texture": "sentinel",
-    "customModelName": "sentinel:default",
-    "name": "§6Sentinel §k9999",
+    "texture": "14",
+    "customModelName": "zangetsu:default",
+    "name": "§0Zangetsu §4§k666",
     "creativeTab": {
       "value": "COMBAT"
     },
@@ -15,7 +15,7 @@
     "attackSpeed": 1.0,
     "enchantability": 2,
     "damageVsEntity": 9.0,
-    "usageCount": 9999,
+    "usageCount": 666,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": []

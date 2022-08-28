@@ -25,16 +25,16 @@ import extra_jopa.ElementsExtraJOPA;
 import com.google.common.collect.Multimap;
 
 @ElementsExtraJOPA.ModElement.Tag
-public class ItemSentinel extends ElementsExtraJOPA.ModElement {
-	@GameRegistry.ObjectHolder("extra_jopa:sentinel")
+public class ItemZangetsu extends ElementsExtraJOPA.ModElement {
+	@GameRegistry.ObjectHolder("extra_jopa:zangetsu")
 	public static final Item block = null;
-	public ItemSentinel(ElementsExtraJOPA instance) {
-		super(instance, 18);
+	public ItemZangetsu(ElementsExtraJOPA instance) {
+		super(instance, 20);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("SENTINEL", 1, 9999, 4f, 5f, 2)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("ZANGETSU", 1, 666, 4f, 5f, 2)) {
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);
@@ -52,12 +52,12 @@ public class ItemSentinel extends ElementsExtraJOPA.ModElement {
 				ret.put("sword", 1);
 				return ret.keySet();
 			}
-		}.setUnlocalizedName("sentinel").setRegistryName("sentinel").setCreativeTab(CreativeTabs.COMBAT));
+		}.setUnlocalizedName("zangetsu").setRegistryName("zangetsu").setCreativeTab(CreativeTabs.COMBAT));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("extra_jopa:sentinel", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("extra_jopa:zangetsu", "inventory"));
 	}
 }
