@@ -164,6 +164,62 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Nexus",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Aorus",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Aorus2",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Hrthr",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tret435ete",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -181,6 +237,8 @@
       "item.siren.name": "§2Siren §k888",
       "item.onix.name": "§2Onix §k999",
       "item.muerte.name": "§4Muerte §k666",
+      "item.nexus.name": "§bN§de§bx§du§bs §k§d555",
+      "item.aorus.name": "§bAorus §k777",
       "item.orden.name": "§bOr§0d§aen §b§k969",
       "item.vendetta.name": "§4Vendetta §k666",
       "item.sentinel.name": "§6Sentinel §k9999",
@@ -189,6 +247,7 @@
       "item.hollow.name": "§f§lHollow §k777",
       "item.apex.name": "§4Apex §k888",
       "item.few.name": "Few",
+      "item.aorus2.name": "§bAorus §k777",
       "item.rave.name": "§bNerro §k1111"
     }
   },
